@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    background-color: #66CDAA;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 90px;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;  
+
+}
+header .logo{
+    position: relative;
+    max-width: 70px;
+    margin-left: 20px;
+    border-radius: 90px;
+}
+header ul{
+    position: relative;
+    display: flex; 
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 60px;
+    text-decoration: none;
+}
+.content{
+    background-color: #20B2AA;
+    border-radius: 90px;
+    top: 20px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    bottom: 30px;
+    margin-left: 200px;
+    position: relative;
+    max-width: 700px;
+}
+.content .textBox h2{
+    font-family: Baskerville, Serif;
+    margin-top: 100px;
+    color: #7FFFD4;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+.content .textBox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content .textBox p{
+    bottom: 10px;
+    color: #333;
+    font-family: Franklin Gothic Medium, sans-serif;
+}
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 10px;
+    padding: 8px 20px;
+    background: #017143;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+input{
+    background-color: transparent;
+}
+.content .textBox td{
+    font-family: Franklin Gothic Medium, sans-serif;
+    color: dimgrey;
+}
+.content .imgBox{
+    margin-right: 200px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 400px;
+    margin-top: 50px; 
+}
+.content .imgBox img{
+    max-width: 300px;
+    border-radius: 70px;
+    margin-bottom: 30px;
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.thumb li{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 40px;
+}
